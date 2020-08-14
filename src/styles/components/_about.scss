@@ -2,8 +2,16 @@
     border: 10px solid #5b7b938f;
     border-radius: 5px;
     margin-right: 5%;
+    //height: 40vh;
 }
 
-#founder-desc {
+#founder-content {
     max-width: 60%;
+    text-align: center;
+    color: #4b4949;
+}
+
+#founder-content h3 {
+    font-family: sans-serif;
+    font-size: 2vmax;
 }

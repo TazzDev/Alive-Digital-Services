@@ -5,6 +5,8 @@ const About = () => {
     return (
         <div className="background-mtg-bg">
             <img src={CEO} id="founder-image"></img>
+            <div id="founder-content">
+                <h3>MEET THE GUY!</h3>
             <p id="founder-desc">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nisi tellus, 
             hendrerit id arcu ac, eleifend finibus neque. Aliquam erat volutpat. 
@@ -17,6 +19,7 @@ const About = () => {
             metus quis odio. Sed nec vulputate diam. Curabitur porttitor ac risus vitae ultricies. 
             Praesent suscipit enim orci, suscipit scelerisque lorem ultrices eu. Curabitur nec tempus velit. 
             </p>
+            </div>
         </div>
     )
 }
