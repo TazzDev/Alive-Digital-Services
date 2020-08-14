@@ -5,3 +5,21 @@
 //     background: green;
 // }
 
+@import './components/home';
+@import './components/header';
+@import './components/services';
+@import './components/about';
+
+
+@import './background';
+
+
+html {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}

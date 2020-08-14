@@ -1,0 +1,22 @@
+.background {
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    height: 80vh;
+    background-image: url('../../public/images/snm_111.jpg');
+    background-size: cover;
+    filter: blur(2px) brightness(110%);
+}
+
+.background-mtg-bg {
+    position: absolute;
+    z-index: -1;
+    height: 75vh;
+    width: 100vw;
+    background: url('../../public/images/mtg_bg.jpg');
+    background-size: cover;
+    filter: brightness(90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
