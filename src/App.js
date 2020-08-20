@@ -9,6 +9,7 @@ import Header from './components/Header';
 import Home from './components/Home';
 import Services from './components/Services';
 import About from './components/About';
+import Contact from './components/Contact';
 
 
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
             <Home/>
             <Services/>
             <About/>
+            <Contact/>
         </div>
     )
 }
