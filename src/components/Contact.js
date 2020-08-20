@@ -9,7 +9,7 @@ const Contact = () => {
                 <img src={Logo} id="contact-logo"/>
                 <h3>team</h3>
             </div>
-            <h6>+919573157416</h6>
+            <h6>+91-8179312708</h6>
         </div>
     )
 }
