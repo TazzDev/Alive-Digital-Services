@@ -4,20 +4,29 @@
     animation: fade 500ms forwards;
     display: flex;
     flex-direction: column;
-    width: 20vw;
     margin-bottom: 5%;
 }
 
+.card h3 {
+    color: #adadad;
+}
+
 #desc {
+    color: transparent;
     animation: fade 1000ms forwards;
 }
 
 @keyframes fade {
     100% {
-        padding: 10%;
+        padding: 5%;
         background: rgba(0, 0, 0, 0.082);
         border-radius: 10px;
         border: transparent;
-        color: black;
+        color: #adadad;
     }
+}
+
+.serv-icon {
+    width: 5vw;
+    height: 10vh;
 }

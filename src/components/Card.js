@@ -19,14 +19,15 @@ class Card extends React.Component {
 
     exitHover(e) {
         console.log(e.target.childNodes[1])
-        e.target.removeChild(e.target.childNodes[1]);
+        e.target.removeChild(e.target.childNodes[2]);
     }
 
 
     render() {
         return (
             <div className="card" onMouseEnter={this.changeHover} onMouseLeave={this.exitHover}>
-                {this.props.header}
+                <img src={this.props.src} className="serv-icon"/>
+                <h3>{this.props.header}</h3>
             </div>
         )
     }
