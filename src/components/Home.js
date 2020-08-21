@@ -8,17 +8,14 @@ const Home = () => {
     return(
         <div id="home">
             <div className="background"></div>
-            {/* <h1>
-            <img src={Logo} id="logo"></img>
-            </h1> */}
-            <img src={Logo} id="logo"/> <h3>believe in working with our clients with
-            utmost
-            </h3>
-            <Typist cursor={{blink:true,element:"_"}} startDelay={2000} className="my-typist">
-                PASSION<Typist.Backspace count={7} delay={1000} /> &nbsp;OWNERSHIP<Typist.Backspace count={10} delay={1000} /> WISDOM 
-                <Typist.Backspace count={6} delay={1000} /> EXPERTISE<Typist.Backspace count={10} delay={1000} /> &nbsp;RESPONSIBILITY
+            <h3 id="htitle">"We believe in working with our clients with
+            utmost"</h3>
+            <Typist cursor={{blink:true,element:"_"}} className="my-typist">
+                <span className="bigger">P</span>ASSION<br/><span className="bigger">O</span>WNERSHIP<br/><span className="bigger">W</span>ISDOM 
+                <br/><span className="bigger">E</span>XPERTISE<br/><span className="bigger">R</span>ESPONSIBILITY
             </Typist>
-            <h3 id="hcard">Portraying your ideas as the best in the segment and the face of your business in the digital world</h3>
+            <h3 id="hcard">Portraying your ideas as the best in the segment and the face of your business in the digital world<br/>
+                As every DROP makes an OCEAN, we believe every IDEA makes a DIFFERENCE.</h3>
         </div>
     )
 }

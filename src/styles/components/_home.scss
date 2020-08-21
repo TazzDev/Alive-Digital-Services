@@ -8,8 +8,11 @@
     color: #5a5e6d;
 }
 
-#home h3 {
-    margin: 1% 0;
+#htitle {
+    margin: 3% 5%;
+    align-self: flex-start;
+    font-style: italic;
+    font-size: 3vmin;
 }
 
 
@@ -38,19 +41,27 @@
 }
 
 #hcard {
+    align-self: center;
     font-size: 0.1vmin;
-    animation: expand 1000ms 1500ms forwards;
+    animation: expand 1000ms 3500ms forwards;
 }
 
 @keyframes expand {
     100% {
+        align-self: center;
         padding: 1%;
         border: none;
         border-radius: 15px;
         font-size: 2vmin;
         background: #5a5e6d;
         color: #c5c4c4;
+        text-align: center;
     }
+}
+
+.bigger {
+    font-size: 3.5vmax;
+    font-weight: 1000;
 }
 
 .my-typist {
@@ -59,6 +70,7 @@
     font-weight: 800;
     letter-spacing: 1rem;
     color: #5a5e6d;
+    margin-bottom: 3%;
 }
 
 //Code for typist blink

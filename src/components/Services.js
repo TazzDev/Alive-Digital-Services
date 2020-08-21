@@ -39,26 +39,31 @@ import AOS from 'aos';
 //     )
 // }
 
-AOS.init();
 
 const Services = () => {
+
+    AOS.init();
+
     return (
         <React.Fragment>
         <section id="services-header">Services</section>
 
         <div id="services">
-            <div id="web-development" data-aos="fade-up">
+
+            <div id="digital-marketing" data-aos="fade-up">
                 <Card data-aos="fade-up" src={WebDev} header="Web development" content="Get custom made websites suited to your own design"/>
                 <Card src={WebDev} header="Web development" content="Get custom made websites suited to your own design"/>
                 <Card src={WebDev} header="Web development" content="Get custom made websites suited to your own design"/>
                 <Card src={WebDev} header="Web development" content="Get custom made websites suited to your own design"/>
             </div>
+
             <div id="web-development">
                 <Card src={WebDev} header="Web development" content="Get custom made websites suited to your own design"/>
                 <Card src={WebDev} header="Web development" content="Get custom made websites suited to your own design"/>
                 <Card src={WebDev} header="Web development" content="Get custom made websites suited to your own design"/>
                 <Card src={WebDev} header="Web development" content="Get custom made websites suited to your own design"/>
             </div>
+
         </div>
         </React.Fragment>
     )

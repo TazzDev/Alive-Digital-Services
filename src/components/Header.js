@@ -6,8 +6,15 @@ import BurgerMenu from './BurgerMenu';
 const Header = () => {
     return (
         <header>
-            <img src={Logo} id="header-logo"/>
-            <BurgerMenu/>
+            <div id="header-start">
+            <img src={Logo} id="header-logo"/><h3>Alive Digital Services</h3>
+            </div>
+            <div id="navlinks">
+                <a href="/">Home</a>
+                <a href="#services">Services</a>
+                <a href="#about">Meet the one</a>
+                <a href="#contact-us">Contact Us</a>
+            </div>
         </header>
     )
 }

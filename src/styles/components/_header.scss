@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&display=swap');
+
 header {
     width: 100vw;
     height: 10vh;
@@ -6,37 +8,53 @@ header {
     justify-content: space-between;
     align-items: center;
     color: white;
-}
-
-header h4 {
-    margin: 0 3% 0 0;
-    font-size: 1.8vmin;
-}
-
-#navlinks {
-    margin-right: 5%;
-    display: flex;
-    width: 20%;
-    justify-content: space-around;
+    font-family: 'Inconsolata',sans-serif;
 }
 
 
 #header-logo {
-    margin-left: 5%;
+    margin: 0 5%;
     height: 7vh;
     width: 8vw;
 }
 
 
-header h4:hover {
+#navlinks {
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+}
+
+#navlinks a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 2.8vmin;
+    color: #acacac;
+    height: fit-content;
+}
+
+
+#navlinks a:hover {
     animation: hoverglow 500ms forwards;
-    padding: 2px;
-    border-bottom: 1px solid white;
+    //padding: 2px;
     cursor: pointer;
 }
 
 @keyframes hoverglow {
     100% {
-        font-size: larger;
+        font-size: 3vmin;
+        color: white;
+        border: transparent;
+        border-bottom: 1px solid white;
     }
+}
+
+#header-start {
+    width: 35%;
+    color: #acacac;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5vmin;
+    letter-spacing: 0.1rem;
 }

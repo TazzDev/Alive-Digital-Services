@@ -5,8 +5,8 @@ import AOS from 'aos';
 const Contact = () => {
     AOS.init();
     return (
-        <div id="contact-us" data-aos="fade-down">
-            <div id="contact-title">
+        <div id="contact-us">
+            <div id="contact-title" data-aos="fade-down"  data-aos-duration="1500">
                 <h3>Contact the </h3>
                 <img src={Logo} id="contact-logo"/>
                 <h3>team</h3>
