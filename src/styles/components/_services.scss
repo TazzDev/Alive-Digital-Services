@@ -1,18 +1,17 @@
-#services {
+#services-header {
     width: 90vw;
     display: flex;
-    padding: 2vh 5vw 5vh 5vw;
-    margin: auto;
+    padding: 2% 5% 5% 5%;
+    //margin: auto;
     justify-content: space-around;
     //background: linear-gradient(rgba(83, 173, 201, 0.404),rgba(132, 176, 189, 0.363))
     background: #34424d;
 }
 
-#services-header {
+#services {
     background: #34424d;
     color: #adadad;
     text-align: center;
-    text-transform: uppercase;
     font-weight: 800;
     font-size: 2vmax;
     padding: 3%;
@@ -29,4 +28,6 @@
     color: #acacac;
     text-align: center;
     padding-bottom: 3%;
+    font-style: italic;
+    font-size: 1.2vmax;
 }

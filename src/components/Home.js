@@ -1,5 +1,4 @@
 import React from 'react';
-import Logo from '../../public/images/logo-1.png';
 import Typist from 'react-typist';
 
 
@@ -8,8 +7,8 @@ const Home = () => {
     return(
         <div id="home">
             <div className="background"></div>
-            <h3 id="htitle">"We believe in working with our clients with
-            utmost"</h3>
+            <h3 id="htitle">We believe in working with our clients with
+            utmost</h3>
             <Typist cursor={{blink:true,element:"_"}} className="my-typist">
                 <span className="bigger">P</span>ASSION<br/><span className="bigger">O</span>WNERSHIP<br/><span className="bigger">W</span>ISDOM 
                 <br/><span className="bigger">E</span>XPERTISE<br/><span className="bigger">R</span>ESPONSIBILITY

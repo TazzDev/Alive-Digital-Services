@@ -20,7 +20,7 @@ class About extends React.Component{
             <div className="background-mtg-bg"></div>
             <h3 data-aos="fade-in" data-aos-duration="1500">MEET THE ONE!</h3>
             <img src={CEO} id="founder-image" data-aos="fade-in" data-aos-duration="1500"></img>
-            <p id="founder-name">CEJO ALPHONSE<br/>BUSINESS HEAD</p>
+            <p id="founder-name">CEJO ALPHONSE</p><p id="founder-details">Business Head - North America & India</p>
             <p id="founder-desc" data-aos="fade-in" data-aos-duration="1500">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nisi tellus, 
             hendrerit id arcu ac, eleifend finibus neque. Aliquam erat volutpat. 

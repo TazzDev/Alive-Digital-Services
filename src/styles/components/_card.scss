@@ -3,9 +3,17 @@
     color: transparent;
     animation: fade 500ms forwards;
     display: flex;
-    //flex-direction: column;
     margin-bottom: 15%;
-    height: 15vh;
+}
+
+.innerCard {
+    display: flex;
+    flex-direction: column;
+}
+
+.serv-icon {
+    width: 5vw;
+    height: 10vh;
 }
 
 .card h3 {
@@ -28,12 +36,3 @@
     }
 }
 
-.serv-icon {
-    width: 5vw;
-    height: 10vh;
-}
-
-.innerCard {
-    display: flex;
-    flex-direction: column;
-}
