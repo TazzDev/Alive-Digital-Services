@@ -9,13 +9,10 @@
 }
 
 .background-mtg-bg {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-    position: sticky;
+    position: absolute;
     z-index: -1;
-    height: 90vh;
+    height: 100vh;
     width: 100vw;
     background: url('../../public/images/mtg_bg.jpg');
     background-size: cover;
