@@ -21,3 +21,48 @@
     height: 15vh;
     //margin: 0 2%;
 }
+
+
+//The form
+
+#contact-form {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5%;
+    background: rgba(0,0,0,0.2);
+    border-radius: 15px;
+}
+
+.formgroup {
+    display: flex;
+    flex-direction: column;
+    font-size: 2vmin;
+}
+
+.formgroup input,label {
+    margin-top: 5%;
+}
+
+#submitbtn {
+    height: 5vh;
+    width: 8vw;
+    border: transparent;
+    background: #acacac;
+    color: black;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    font-size: 2vmin;
+}
+
+#submitbtn:hover {
+    animation: hovercontact 1000ms forwards;
+    cursor: pointer;
+}
+
+@keyframes hovercontact {
+    100% {
+        background: white;
+    }
+}

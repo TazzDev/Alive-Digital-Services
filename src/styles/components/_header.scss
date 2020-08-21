@@ -58,3 +58,42 @@ header {
     font-size: 2.5vmin;
     letter-spacing: 0.1rem;
 }
+
+
+//Phone renders 
+
+@media only screen and (max-width: 768px) {
+
+    header {
+        width: 100vw;
+        height: 10vh;
+        background: #34424d;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+        font-family: 'Inconsolata',sans-serif;
+    }
+
+    #header-start {
+        width: 50%;
+        color: #acacac;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2.5vmin;
+        letter-spacing: 0.1rem;    
+    }
+
+
+    #header-logo {
+        margin: 0 10%;
+        height: 6vh;
+        width: 100vw;
+    }
+
+    #navlinks {
+        display: none;
+    }
+
+}

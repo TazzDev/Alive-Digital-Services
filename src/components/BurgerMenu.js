@@ -32,10 +32,10 @@ class BurgerMenu extends React.Component {
     render() {
         return(
             <div>
-                <img src={Burger} id="bmenu" onClick={this.toggleOpen}/>
+                <img src={Burger} id="bmenuicon" onClick={this.toggleOpen}/>
                 {this.state.isOpened ? 
                             <div id="mform">
-                                <div id="navlinks">
+                                <div id="burlinks">
                                     <a href="/" className="nav-a" onClick={this.toggleOpen}>Home</a>
                                     <a href="#services" className="nav-a" onClick={this.toggleOpen}>Services</a>
                                     <a href="#about" className="nav-a" onClick={this.toggleOpen}>Meet the One</a>

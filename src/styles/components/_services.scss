@@ -31,3 +31,24 @@
     font-style: italic;
     font-size: 1.2vmax;
 }
+
+//Mobile renders 
+
+@media only screen and (max-width: 768px) {
+    #services-header {
+        flex-direction: column;
+    }
+
+    #services {
+        font-size: 4vmax;
+    }
+
+    #serv-subt {
+        font-size: 2.6vmax;
+        padding: 0 5%;
+    }
+
+    #web-development, #digital-marketing{
+        width: 90%;
+    }
+}

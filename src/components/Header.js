@@ -9,6 +9,7 @@ const Header = () => {
             <div id="header-start">
             <img src={Logo} id="header-logo"/><h3>Alive Digital Services</h3>
             </div>
+            <BurgerMenu/>
             <div id="navlinks">
                 <a href="/">Home</a>
                 <a href="#services">Services</a>

@@ -1,17 +1,7 @@
-#founder-image {
-    border: 10px solid #5b7b938f;
-    border-radius: 5px;
-    //margin-right: 5%;
-    width: 20vw;
-}
-
-#founder-desc {
-    max-width: 60%;
-    text-align: center;
-    color: #4b4949;
-    padding: 1% 0 3% 0;
-    margin: 0;
-    font-size: 2vmin;
+#about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #about h3 {
@@ -21,6 +11,13 @@
     word-spacing: 0.3rem;
     text-align: center;
     margin: 2% 0 4% 0;
+}
+
+#founder-image {
+    border: 10px solid #5b7b938f;
+    border-radius: 5px;
+    //margin-right: 5%;
+    width: 20vw;
 }
 
 #founder-name {
@@ -38,8 +35,61 @@
     font-weight: 600;
 }
 
-#about {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+#founder-desc {
+    max-width: 60%;
+    text-align: center;
+    color: #4b4949;
+    padding: 1% 0 3% 0;
+    margin: 0;
+    font-size: 2vmin;
+}
+
+//Mobile renders
+
+@media only screen and (max-width: 768px) {
+
+    #about h3 {
+        font-family: sans-serif;
+        font-size: 4vmax;
+        color: #5a5e6d;
+        word-spacing: 0.3rem;
+        text-align: center;
+        margin: 8% 0 10% 0;
+    }
+
+    #founder-image {
+        width: 60vw;
+        border: 5px solid #5b7b938f;
+        border-radius: 5px;
+        //margin-right: 5%;
+    }
+
+    #founder-name {
+        color: #5a5e6d;
+        letter-spacing: 0.2rem;
+        margin: 1% 0 0 0;
+        font-weight: 1000;
+        font-size: 2vmax;
+    }
+
+    #founder-details {
+        max-width: 50%;
+        text-align: center;
+        color: #5a5e6d;
+        letter-spacing: 0.2rem;
+        margin: 0.5% 0 2% 0;
+        font-weight: 600;
+        font-size: 1.6vmax;
+    }
+
+
+    #founder-desc {
+        max-width: 80%;
+        text-align: center;
+        color: #4b4949;
+        padding: 1% 0 3% 0;
+        margin: 0;
+        font-size: 1.8vmax;
+        text-align: justify;
+    }
 }

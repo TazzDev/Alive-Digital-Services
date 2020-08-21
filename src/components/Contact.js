@@ -1,6 +1,6 @@
 import React from 'react';
 import Logo from '../../public/images/footer-logo.png';
-import AOS from 'aos';
+import AOS, { init } from 'aos';
 
 const Contact = () => {
     AOS.init();
@@ -11,7 +11,26 @@ const Contact = () => {
                 <img src={Logo} id="contact-logo"/>
                 <h3>TEAM</h3>
             </div>
-            <h6>Phone : +91-8179312708</h6>
+            <form id="contact-form">
+
+                <div className="formgroup">
+                <label for="name" id="fname">Name:</label>
+                <input id="name" name="name" type="text" required/>
+
+                <label for="email" id="femail">Email:</label>
+                <input id="email" name="email" type="email" required/>
+                </div>
+
+                <button type="submit" id="submitbtn">SUBMIT</button>
+
+                <div className="formgroup">
+                <label for="name" id="fname">Phone:</label>
+                <input id="name" name="name" type="tel"/>
+
+                <label for="email" id="femail">Business Query:</label>
+                <input id="query" name="email" type="text"/>
+                </div>
+            </form>
         </div>
     )
 }
