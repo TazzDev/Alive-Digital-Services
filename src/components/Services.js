@@ -57,7 +57,7 @@ const Services = () => {
                 <Card src={WebDev} header="Web development" content="Get custom made websites suited to your own design"/>
             </div>
 
-            <div id="web-development">
+            <div id="web-development" data-aos="fade-up">
                 <Card src={WebDev} header="Web development" content="Get custom made websites suited to your own design"/>
                 <Card src={WebDev} header="Web development" content="Get custom made websites suited to your own design"/>
                 <Card src={WebDev} header="Web development" content="Get custom made websites suited to your own design"/>
