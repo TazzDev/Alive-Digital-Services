@@ -18,7 +18,7 @@ class Card extends React.Component {
     }
 
     exitHover(e) {
-        console.log(e.target.childNodes[1])
+        console.log(e.target.childNodes[2])
         e.target.removeChild(e.target.childNodes[2]);
     }
 

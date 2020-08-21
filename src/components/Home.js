@@ -14,7 +14,7 @@ const Home = () => {
             <img src={Logo} id="logo"/> <h3>believe in working with our clients with
             utmost
             </h3>
-            <Typist cursor={{blink:"true",element:"_"}} startDelay={2000} className="my-typist">
+            <Typist cursor={{blink:true,element:"_"}} startDelay={2000} className="my-typist">
                 PASSION<Typist.Backspace count={7} delay={1000} /> &nbsp;OWNERSHIP<Typist.Backspace count={10} delay={1000} /> WISDOM 
                 <Typist.Backspace count={6} delay={1000} /> EXPERTISE<Typist.Backspace count={10} delay={1000} /> &nbsp;RESPONSIBILITY
             </Typist>

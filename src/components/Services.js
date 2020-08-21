@@ -1,7 +1,7 @@
 import React from 'react';
 import WebDev from '../../public/images/web-dev.png';
 import Card from './Card';
-
+import AOS from 'aos';
 
 // const XServices = () => {
 //     return (
@@ -39,7 +39,7 @@ import Card from './Card';
 //     )
 // }
 
-
+AOS.init();
 
 const Services = () => {
     return (
@@ -47,8 +47,8 @@ const Services = () => {
         <section id="services-header">Services</section>
 
         <div id="services">
-            <div id="web-development">
-                <Card src={WebDev} header="Web development" content="Get custom made websites suited to your own design"/>
+            <div id="web-development" data-aos="fade-up">
+                <Card data-aos="fade-up" src={WebDev} header="Web development" content="Get custom made websites suited to your own design"/>
                 <Card src={WebDev} header="Web development" content="Get custom made websites suited to your own design"/>
                 <Card src={WebDev} header="Web development" content="Get custom made websites suited to your own design"/>
                 <Card src={WebDev} header="Web development" content="Get custom made websites suited to your own design"/>

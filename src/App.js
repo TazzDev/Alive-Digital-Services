@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import 'aos/dist/aos.css';
 
 // import AppRouter from './router/AppRouter';
 

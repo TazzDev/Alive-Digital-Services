@@ -1,12 +1,25 @@
 import React from 'react';
 import CEO from '../../public/images/ceo.png';
+import AOS from 'aos';
 
-const About = () => {
-    return (
-        <div className="background-mtg-bg">
-            <h3>MEET THE ONE!</h3>
-            <img src={CEO} id="founder-image"></img>
-            <p id="founder-desc">
+
+class About extends React.Component{
+
+    constructor(props) {
+        super(props);
+        AOS.init();
+    }
+
+    componentDidMount() {
+        AOS.refresh();
+    }
+
+    render(){
+        return (
+        <div className="background-mtg-bg" id="about">
+            <h3 data-aos="fade-in" data-aos-duration="4000">MEET THE ONE!</h3>
+            <img src={CEO} id="founder-image" data-aos="fade-in"></img>
+            <p id="founder-desc" data-aos="fade-in">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nisi tellus, 
             hendrerit id arcu ac, eleifend finibus neque. Aliquam erat volutpat. 
             Fusce quam mi, consectetur eget mollis ac, blandit at est. Nam ornare dui erat, 
@@ -20,6 +33,7 @@ const About = () => {
             </p>
         </div>
     )
+    }
 }
 
 export default About;
