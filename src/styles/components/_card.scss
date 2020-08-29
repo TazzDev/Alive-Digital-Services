@@ -2,8 +2,9 @@
     background: transparent;
     color: transparent;
     animation: fade 500ms forwards;
-    display: flex;
+    //display: flex;
     margin-bottom: 15%;
+    //justify-content: center;
 }
 
 .innerCard {
@@ -41,7 +42,8 @@
 @media only screen and (max-width: 768px) {
     .card {
         width: 100%;
-    }
+        display: flex;
+        }
     .serv-icon {
         width:20vw;
     }

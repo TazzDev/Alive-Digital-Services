@@ -28,9 +28,11 @@ header {
 #navlinks a {
     text-align: center;
     text-decoration: none;
-    font-size: 2.8vmin;
+    font-size: 3vmin;
     color: #acacac;
     height: fit-content;
+    font-weight: bolder;
+    letter-spacing: -1px;
 }
 
 
@@ -42,7 +44,7 @@ header {
 
 @keyframes hoverglow {
     100% {
-        font-size: 3vmin;
+        font-size: 3.2vmin;
         color: white;
         border: transparent;
         border-bottom: 1px solid white;

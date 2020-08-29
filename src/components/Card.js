@@ -41,7 +41,7 @@ class Card extends React.Component {
                 <img src={this.props.src} className="serv-icon"/>
                 <h3>{this.props.header}</h3>
                 </div>
-                <p onClick={this.changeHover}>Click here to know more</p>
+                {/* <p onClick={this.changeHover}>Click here to know more</p> */}
             </div>
         )
     }
