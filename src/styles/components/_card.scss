@@ -39,6 +39,9 @@
 //Mobile render
 
 @media only screen and (max-width: 768px) {
+    .card {
+        width: 100%;
+    }
     .serv-icon {
         width:15vw;
     }
