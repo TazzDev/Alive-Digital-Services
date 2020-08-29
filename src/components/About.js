@@ -18,20 +18,25 @@ class About extends React.Component{
         return (
         <div  id="about">
             <div className="background-mtg-bg"></div>
-            <h3 data-aos="fade-in" data-aos-duration="1500">MEET THE ONE!</h3>
-            <img src={CEO} id="founder-image" data-aos="fade-in" data-aos-duration="1500"></img>
-            <p id="founder-name">CEJO ALPHONSE</p><p id="founder-details">Business Head - North America & India</p>
+            <h3 data-aos="fade-in" data-aos-duration="1500">OUR STORY</h3>
+            {/* <img src={CEO} id="founder-image" data-aos="fade-in" data-aos-duration="1500"></img>
+            <p id="founder-name">CEJO ALPHONSE</p><p id="founder-details">Business Head - North America & India</p> */}
             <p id="founder-desc" data-aos="fade-in" data-aos-duration="1500">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nisi tellus, 
-            hendrerit id arcu ac, eleifend finibus neque. Aliquam erat volutpat. 
-            Fusce quam mi, consectetur eget mollis ac, blandit at est. Nam ornare dui erat, 
-            ac mattis nunc tempus a. Maecenas eu pulvinar nisi, a efficitur neque. Nullam 
-            venenatis odio ac arcu ultrices euismod. Donec ultricies velit ut ligula bibendum, 
-            vel bibendum lectus viverra. In blandit faucibus nisl, in venenatis turpis cursus 
-            at. Ut vel maximus velit, eu tincidunt nunc. Nam iaculis dignissim massa a feugiat. 
-            In bibendum, ex vitae tristique bibendum, libero erat imperdiet mi, et bibendum sem 
-            metus quis odio. Sed nec vulputate diam. Curabitur porttitor ac risus vitae ultricies. 
-            Praesent suscipit enim orci, suscipit scelerisque lorem ultrices eu. Curabitur nec tempus velit. 
+            Every Business starts locally and then expands Internationally. But, for us it was quite the opposite.<br/><br/>
+            Starting from USA partnering up with Alive Corps LLC (a registered IT firm), we started out with just one client. 
+            We have significantly grown and now we want to setup base helping Indian Businesses achieve their goals too, 
+            although having our home company in the US.<br/><br/>
+            <b>Cejo Alphonse</b> is an innovative young man who took all his skills which have been developed over the years of 
+            work into all segments possible. He has been working from a very young age nurturing and sharpening skills overtime.<br/><br/>
+            It was always a thought of having something on his own that drove this young man and something he constantly prayed for. 
+            His God answered his prayers and gave him something of his own and as a cherry to the cake, also gave him an opportunity 
+            to help people like him who nurtured their business as their own child. Today he is one of the youngest Business Heads in 
+            India.<br/><br/>
+            Trained by the creators of Digital Marketing itself, we have expertise that can help your business with the Best Strategies possible.
+            <br/><br/>
+            Eventually growing our team and acquiring people with new sets of skills we have evolved into what we are today – <b>“One Stop Shop for 
+            Businesses to make a mark in the Digital World”</b><br/>,<br/>
+            <b>We work not because that’s something we have to do, but because it is something we want to do and that’s what makes us who we are.</b>
             </p>
         </div>
     )
