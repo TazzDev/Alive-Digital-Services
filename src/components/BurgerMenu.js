@@ -38,7 +38,7 @@ class BurgerMenu extends React.Component {
                                 <div id="burlinks">
                                     <a href="/" className="nav-a" onClick={this.toggleOpen}>Home</a>
                                     <a href="#services" className="nav-a" onClick={this.toggleOpen}>Services</a>
-                                    <a href="#about" className="nav-a" onClick={this.toggleOpen}>Meet the One</a>
+                                    <a href="#about" className="nav-a" onClick={this.toggleOpen}>Our Story</a>
                                     <a href="#contact-us" className="nav-a" onClick={this.toggleOpen}>Contact Us</a>
                                 </div>
                             </div> 
