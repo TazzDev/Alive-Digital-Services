@@ -35,7 +35,7 @@ class About extends React.Component{
             Trained by the creators of Digital Marketing itself, we have expertise that can help your business with the Best Strategies possible.
             <br/><br/>
             Eventually growing our team and acquiring people with new sets of skills we have evolved into what we are today – <b>“One Stop Shop for 
-            Businesses to make a mark in the Digital World”</b><br/>,<br/>
+            Businesses to make a mark in the Digital World”</b><br/><br/>
             <b>We work not because that’s something we have to do, but because it is something we want to do and that’s what makes us who we are.</b>
             </p>
         </div>

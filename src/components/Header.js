@@ -13,7 +13,7 @@ const Header = () => {
             <div id="navlinks">
                 <a href="/">Home</a>
                 <a href="#services">Services</a>
-                <a href="#about">Meet the one</a>
+                <a href="#about">Our Story</a>
                 <a href="#contact-us">Contact Us</a>
             </div>
         </header>

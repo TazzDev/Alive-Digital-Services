@@ -38,11 +38,15 @@
 .formgroup {
     display: flex;
     flex-direction: column;
-    font-size: 2.5vmin;
+    font-size: 2.8vmin;
 }
 
 .formgroup input,label {
     margin-top: 5%;
+}
+
+.formgroup input {
+    padding: 1%;
 }
 
 #submitbtn {
@@ -54,7 +58,7 @@
     color: black;
     border-radius: 5px;
     letter-spacing: 2px;
-    font-size: 2vmin;
+    font-size: 2.6vmin;
 }
 
 #submitbtn:hover {
@@ -99,10 +103,10 @@
         color: black;
         border-radius: 5px;
         letter-spacing: 2px;
-        font-size: 3.5vmin;
+        font-size: 3.6vmin;
     }
 
     .formgroup label {
-        font-size: 5vmin;
+        font-size: 5.2vmin;
     }
 }

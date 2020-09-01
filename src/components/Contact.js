@@ -11,7 +11,8 @@ const Contact = () => {
                 <img src={Logo} id="contact-logo"/>
                 <h3>TEAM</h3>
             </div>
-            <form id="contact-form">
+            <form id="contact-form" action="https://formsubmit.co/tz.marketing1@gmail.com" target="_blank" method="POST" >
+                {/* <iframe name="hForm" style={{display:"none"}}/> */}
 
                 <div className="formgroup">
                 <label for="name" id="fname">Name:</label>
