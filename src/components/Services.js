@@ -24,7 +24,7 @@ const Services = () => {
 
     return (
         <div id="service-container">
-        <section id="services">SERVICES</section>
+        <section id="services"><u>SERVICES</u></section>
         <h3 id="serv-subt">Best in class one stop shop for your business to make a mark in the digital world!</h3>
         <div id="services-header">
 
