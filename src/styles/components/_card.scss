@@ -1,11 +1,11 @@
 .card {
-    background: transparent;
+    //background: transparent;
     color: transparent;
     animation: fade 500ms forwards;
     //display: flex;
-    margin-bottom: 15%;
+    //margin-bottom: 3%;
     //justify-content: center;
-    width: 50%;
+    width: 15%;
 }
 
 .innerCard {
@@ -29,11 +29,13 @@
 
 @keyframes fade {
     100% {
-        margin-top: 2%;
-        padding: 5%;
-        background: #86acd9;
+        //margin-top: 2%;
+        padding: 3%;
+        //background: #86acd9;
+        //border-radius: 10px;
+        //border: transparent;
+        border: 0.5px solid rgba(0, 0, 0, 0.452);
         border-radius: 10px;
-        border: transparent;
         color: #adadad;
     }
 }

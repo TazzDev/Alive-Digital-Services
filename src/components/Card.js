@@ -7,6 +7,11 @@ class Card extends React.Component {
             clicked: false,
         }
         this.changeHover = this.changeHover.bind(this);
+        this.onLoadColorChange = this.onLoadColorChange.bind(this);
+    }
+
+    onLoadColorChange = (e) =>{
+        e.currentTarget.style.background = this.props.color;
     }
 
     changeHover(e) {
@@ -36,7 +41,7 @@ class Card extends React.Component {
 
     render() {
         return (
-            <div className="card" >
+            <div className="card" onLoad={this.onLoadColorChange}>
                 <div className="innerCard">
                 <img src={this.props.src} className="serv-icon"/>
                 <h3>{this.props.header}</h3>

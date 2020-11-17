@@ -23,34 +23,33 @@ const Services = () => {
     AOS.init();
 
     return (
-        <React.Fragment>
+        <div id="service-container">
         <section id="services">SERVICES</section>
         <h3 id="serv-subt">Best in class one stop shop for your business to make a mark in the digital world!</h3>
         <div id="services-header">
 
-            <div id="digital-marketing" data-aos="fade-up">
-                <Card src={BrandMarketing} header="Brand Marketing" content="Get custom made websites suited to your own design"/>
-                <Card src={PaidAds} header="Paid Advertisements" content="Get custom made websites suited to your own design"/>
-                <Card src={SocialMedia} header="Social Media Marketing" content="Get custom made websites suited to your own design"/>
-                <Card src={BudgetPlanning} header="Budget Planning" content="Get custom made websites suited to your own design"/>
-                <Card src={MarketingStrategy} header="Marketing Strategies & Consulting" content="Get custom made websites suited to your own design"/>
-                <Card src={SEO} header="Search Engine Optimisation" content="Get custom made websites suited to your own design"/>
-                <Card src={ContentPlanning} header="Content Planning and Strategies" content="Get custom made websites suited to your own design"/>
-            </div>
 
-            <div id="web-development" data-aos="fade-up">
-                <Card src={WebDev} header="Web development" content="Get custom made websites suited to your own design"/>
-                <Card src={Ecommerce} header="E-commerce development" content="Get custom made websites suited to your own design"/>
-                <Card src={CustomDesign} header="Custom design" content="Get custom made websites suited to your own design"/>
-                <Card src={WebSpeed} header="Web page optimization & fast renders" content="Get custom made websites suited to your own design"/>
-                <Card src={Maintenance} header="Web page maintenance" content="Get custom made websites suited to your own design"/>
-                <Card src={UX} header="Positive user experience" content="Get custom made websites suited to your own design"/>
-                <Card src={Testing} header="Server Load Testing & Integration Testing" content="Get custom made websites suited to your own design"/>
+                <Card src={BrandMarketing} header="Brand Marketing" color="#80ff00"/>
+                <Card src={PaidAds} header="Paid Advertisements" color="#0b9df4"/>
+                <Card src={SocialMedia} header="Social Media Marketing" color="#c53ac5"/>
+                <Card src={BudgetPlanning} header="Budget Planning" color="#f40b6f"/>
+                <Card src={MarketingStrategy} header="Marketing Strategies & Planning" color="#0ec9bf"/>
+                <Card src={SEO} header="Search Engine Optimisation" color="#f91f06"/> {/*Change this red*/}
+                <Card src={ContentPlanning} header="Content Planning and Strategies" color="#ffff00"/>
 
-            </div>
+                <Card src={WebDev} header="Web development" color="#f88607"/>
+                <Card src={Ecommerce} header="E-commerce development" color="#3e4799"/>
+                <Card src={CustomDesign} header="Custom design" color="#ff80ff"/>
+                <Card src={WebSpeed} header="Web page optimization & fast renders" color="#80ff00"/>
+                <Card src={Maintenance} header="Web page maintenance" color="#f40b6f"/>
+                <Card src={UX} header="Positive user experience" color="#0b9df4"/>
+                <Card src={Testing} header="Server Load Testing & Integration Testing" color="#c53ac5"/>
+                <Card src={Testing} header="Codebase Revision" color="#ffff00"/>
+                <Card src={Testing} header="Market Research & Consulting" color="#f91f06"/>
+                
 
         </div>
-        </React.Fragment>
+        </div>
     )
 }
 
