@@ -42,6 +42,12 @@
     padding: 1% 0 3% 0;
     margin: 0;
     font-size: 2.5vmin;
+    display: flex;
+    flex-direction: column;
+}
+
+#footnote {
+    align-self: flex-end;
 }
 
 //Mobile renders
